@@ -14,7 +14,7 @@ echo -e '[Desktop Entry]\n Version=77.0\n Encoding=UTF-8\n Name=Mozilla Firefox\
 sudo chmod +x /usr/share/applications/firefox-developer.desktop
 
 #Baixando e instalando o updater
-wget "link"
+wget https://raw.githubusercontent.com/miqueiaspenha/firefox-developer-update/master/firefox-developer-update.sh
 sudo mv firefox-developer-update.sh /opt/firefox-developer/firefox-developer-update.sh
 sudo chmod +x /opt/firefox-developer/firefox-developer-update.sh
 sudo ln -sf /opt/firefox-developer/firefox-developer-update.sh /usr/bin/firefox-developer-update
